@@ -4,7 +4,7 @@ const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const port = process.env.PORT || 2000;
 const app = express();
-const router = express.Router();
+
 const routes = require('./server/routes/recipeRoutes.js');
 //require('dotenv').config
 //const url = require('url');
